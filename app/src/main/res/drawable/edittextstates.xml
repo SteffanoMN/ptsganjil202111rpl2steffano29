@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:state_pressed="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/edittextpressed" />
+    <item
+        android:state_focused="true"
+        android:state_enabled="true"
+        android:drawable="@drawable/edittextfocused"
+        />
+    <item
+        android:state_enabled="true"
+        android:drawable="@drawable/edittextborders" />
+</selector>
